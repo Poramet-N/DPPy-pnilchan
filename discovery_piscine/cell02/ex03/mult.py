@@ -14,5 +14,4 @@ if answer2 < 0 :
 elif answer2 > 0 :
     print("The result is positive.")
 
-elif answer2 == 0 : 
-    print("The result is negative and positive")
+else : print("The result is negative and positive")

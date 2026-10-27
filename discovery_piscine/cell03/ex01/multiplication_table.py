@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-user_input = int(round(float(input("Enter a number : ").strip())))
+user_input = int(round(float(input("Enter a number : "))))
 
 start_number = 0
 
