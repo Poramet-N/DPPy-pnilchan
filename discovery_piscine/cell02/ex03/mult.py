@@ -8,10 +8,11 @@ answer2 = first_number * second_number
 
 print(f"{answer1}\n{answer2}")
 
-if answer2 < 0 :
+if answer2 < 0:
     print("The result is negative.")
 
-elif answer2 > 0 :
+elif answer2 > 0:
     print("The result is positive.")
 
-else : print("The result is negative and positive")
+else: 
+    print("The result is negative and positive")

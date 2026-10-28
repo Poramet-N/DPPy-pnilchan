@@ -4,7 +4,8 @@ password = "Python is awesom"
 
 login = input().strip()
 
-if login == password :
+if login == password:
     print("ACCESS GRANTED")
 
-else : print("ACCESS DENIED")
+else: 
+    print("ACCESS DENIED")

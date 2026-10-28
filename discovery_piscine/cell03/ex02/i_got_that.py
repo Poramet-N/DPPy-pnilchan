@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-user_input = input("What you gotta say? : ")
+user_input = input("What you gotta say? : ").strip()
 
 while True:
 
@@ -8,5 +8,5 @@ while True:
         break
     
     else: 
-        user_input = input("I got that! Anything else? : ")
+        user_input = input("I got that! Anything else? : ").strip()
 
