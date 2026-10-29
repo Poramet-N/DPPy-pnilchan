@@ -1,0 +1,17 @@
+# เก็บเฉพาะโฟลเดอร์ rush (ที่เหลือในรากโปรเจกต์ไม่เข้า git)
+/*
+!/.gitignore
+!/README.md
+!/rush/
+
+# Python bytecode
+__pycache__/
+*.pyc
+
+# Save/history files the game creates while playing
+rush/ghost_realm_save.json
+rush/ghost_realm_history.json
+
+# คู่มือโค้ด (เก็บไว้ในเครื่อง ไม่ commit) และไฟล์ล็อกตอนเปิดด้วย Word
+rush/คู่มือโค้ด_มิติผี.docx
+~$*
